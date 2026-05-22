@@ -1,8 +1,12 @@
 # Pulse_Code_Modulation
 
-
 #Aim:
 Write a simple python program for the modulation and demodulation
+
+#Tools Required:
+1. Google Colab
+
+#Program
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -42,3 +46,9 @@ plt.subplot(616); plt.plot(t,dm_demod[:-1],'g--'); plt.title("DM Demodulation");
 plt.tight_layout()
 plt.show()
 ```
+
+#Output waveform:
+<img width="989" height="990" alt="PCM_DM_DcExp" src="https://github.com/user-attachments/assets/84581e71-d92e-4b00-bc11-49cfd4409147" />
+
+#Result:
+Hence the program is executed and the output is verified.
